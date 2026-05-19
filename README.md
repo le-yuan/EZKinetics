@@ -17,7 +17,7 @@ Accurate prediction of enzyme catalytic activity, typically quantified by kineti
 EZKinetics/
 ├── code/                     # Python scripts for model training and evaluation
 ├── complementaryScripts/     # Complementary scripts for data downloading and processing
-├── data/                     # Datasets used for model training
+├── data/                     # Datasets used for model training and analysis
 ├── inference/                # Example files and scripts for model inference
 ├── model/                    # Pretrained EZKinetics models
 ├── picture/                  # Figures and images for project overview
