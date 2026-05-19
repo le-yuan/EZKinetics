@@ -46,6 +46,13 @@ python predict.py --input input_example.csv --output output_results.csv
 This command will process the input file and generate prediction results in the specified output file.
 
 
+## Citation
+
+If you use **EZKinetics** in your research, please cite:
+
+> Le Yuan, Zhengyi Zhang, and Huimin Zhao. (2026). **EZKinetics: a Machine Learning Framework for Enzyme Catalytic Activity Prediction.** *Manuscript under consideration*.
+
+
 ## Contact
 
 -   Le Yuan ([@le-yuan](https://github.com/le-yuan)), University
