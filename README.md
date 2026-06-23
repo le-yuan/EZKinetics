@@ -43,6 +43,24 @@ tokenizers==0.13.2
 ```
 
 
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/le-yuan/EZKinetics.git
+cd EZKinetics
+```
+
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+The installation typically takes **5–10 minutes** on a standard Ubuntu machine, depending on the internet connection and system configuration.
+
+
 ## How to use
 
 1. Install dependencies:
