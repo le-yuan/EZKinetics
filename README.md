@@ -64,20 +64,25 @@ The installation typically takes **5–10 minutes** on a standard Ubuntu machine
 ## How to use
 
 1. Install dependencies:
-```linux
+
+```bash
 pip install -r requirements.txt
 ``` 
+
 If the required packages are already installed, you can skip this step.
 
 2. Navigate to the prediction directory:
-```linux
+
+```bash
 cd inference
 ``` 
 
 3. Run your predictions, please refer to the command line below:
-```linux
+
+```bash
 python predict.py --input input_example.csv --output output_results.csv
 ```
+
 This command will process the input file and generate prediction results in the specified output file.
 
 
