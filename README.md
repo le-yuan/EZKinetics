@@ -11,7 +11,7 @@
 Accurate prediction of enzyme catalytic activity, typically quantified by kinetic parameters such as enzyme turnover number (<i>k</i><sub>cat</sub>), Michaelis constant (<i>K</i><sub>m</sub>), and enzyme catalytic efficiency (<i>k</i><sub>cat</sub>/<i>K</i><sub>m</sub>), remains a fundamental challenge despite recent advances in machine learning (ML) and artificial intelligence (AI). Existing models often exhibit limited generalization to unseen or less-studied enzymes and fail to account for assay conditions (i.e., pH and temperature), with comparatively little attention given to <i>k</i><sub>cat</sub>/<i>K</i><sub>m</sub>, a key parameter for evaluating enzyme efficiency and enabling quantitative analysis and engineering of cellular systems. Here, we present EZKinetics, a ML framework for <i>k</i><sub>cat</sub>/<i>K</i><sub>m</sub> prediction that leverages pretrained large language models and substantially outperforms existing state-of-the-art AI models. Beyond <i>k</i><sub>cat</sub>/<i>K</i><sub>m</sub>, EZKinetics also enables accurate prediction of <i>k</i><sub>cat</sub> and <i>K</i><sub>m</sub>, consistently achieving substantial improvements over existing models while explicitly incorporating assay conditions for condition-aware prediction of enzyme catalytic activity. Notably, experimental validation on ene-reductase and ketoreductase across structurally diverse substrates demonstrates that EZKinetics maintains strong predictive performance, achieving Pearson correlation coefficients (PCCs) of 0.90 and 0.82, respectively, even for enzymes with low sequence similarity (<40%) to the training data. We anticipate that this tool will be widely adopted for predicting the catalytic activities of uncharacterized enzymes, thereby advancing many fields, such as synthetic chemistry, synthetic biology, biocatalysis, and enzyme engineering.
 
 
-## Repository Structure
+## Repository structure
 
 ```text
 EZKinetics/
@@ -25,6 +25,22 @@ EZKinetics/
 ├── README.md                 # Project README file
 └── requirements.txt          # Python dependencies
 ```
+
+
+## Software dependencies
+
+The EZKinetics framework was developed and tested using the following package versions:
+
+| Package | Version |
+|----------|----------|
+| torch | 2.4.1 |
+| pandas | 1.5.3 |
+| fair-esm | 1.0.3 |
+| xgboost | 2.1.1 |
+| scikit-learn | 1.5.2 |
+| scipy | 1.13.1 |
+| transformers | 4.27.2 |
+| tokenizers | 0.13.2 |
 
 
 ## How to use
