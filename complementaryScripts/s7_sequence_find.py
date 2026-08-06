@@ -69,8 +69,8 @@ def download_data_from_BRENDA(function, parameters, error_identifier, print_erro
 
 def brenda_query(datasets_dir, annotate_dir) :
     wsdl = "https://www.brenda-enzymes.org/soap/brenda_zeep.wsdl"
-    email = 'your_email@example.com'
-    brenda_password = 'your_password'
+    email = 'your_email@example.com'   # Replace with your BRENDA account
+    brenda_password = 'your_password'  # Replace with your BRENDA password
     password = hashlib.sha256(brenda_password.encode("utf-8")).hexdigest()
     client = Client(wsdl)
 
